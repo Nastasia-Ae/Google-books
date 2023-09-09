@@ -1,0 +1,23 @@
+.select:not(:last-child) {
+  margin-right: 20px;
+}
+
+.select {
+  padding: 15px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  transition: border 0.5s linear;
+}
+
+.select:hover,
+.select:focus {
+  border: 2px solid var(--orange);
+}
+
+.sortBlock {
+  background-color: var(--white);
+  padding: 11px 20px;
+  border-radius: 7px;
+  margin: 0 0 20px;
+}
